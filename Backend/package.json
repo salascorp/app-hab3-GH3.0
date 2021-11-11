@@ -7,6 +7,9 @@
     "heroku-postbuild": "npm install && npm install && npm run build",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "author": "EB",
   "license": "ISC",
   "dependencies": {
