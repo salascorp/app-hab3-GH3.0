@@ -23,7 +23,7 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
     return (
       <React.Fragment>
         {/* <Dropdown>
-          <Dropdown.Toggle variant="danger" id="dropdown-basic">
+          <Dropdown.Toggle variant="success" id="dropdown-basic">
             Venticas
           </Dropdown.Toggle>
 
@@ -35,7 +35,7 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
         </Dropdown> */}
 
         <Link to="/SistemaVentas">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Ingresar Ventas
           </Button>
         </Link>
@@ -47,43 +47,43 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
         </Link> */}
 
         <Link to="/VentasRealizadas">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Gestionar Ventas
           </Button>
         </Link>
 
         <Link to="/CrearProducto">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Ingresar producto
           </Button>
         </Link>
 
         <Link to="/Gestion">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Gestionar Productos
           </Button>
         </Link>
 
         <Link to="/ProductosDisponibles">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Productos
           </Button>
         </Link>
 
         <Link to="/CrearUsuario">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Crear Usuarios
           </Button>
         </Link>
 
         <Link to="/TablaGestorUsuario">
-          <Button variant="danger" className="me-3">
+          <Button variant="primary" className="me-3">
             Gestion Usuarios
           </Button>
         </Link>
 
         <Link to="/">
-          <Button variant="danger" onClick={logout}>
+          <Button variant="primary" onClick={logout}>
             Logout
           </Button>
         </Link>
@@ -100,7 +100,7 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
           cookiePolicy={"single_host_origin"}
         />
         ,
-        {/* <Button variant="danger" onClick={login}>
+        {/* <Button variant="priimary" onClick={login}>
           Login
         </Button> */}
       </div>
