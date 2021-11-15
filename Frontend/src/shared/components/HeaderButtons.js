@@ -93,7 +93,7 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
     return (
       <div>
         <GoogleLogin
-          clientId="1072646916283-tuqtgn75i6kb0p8u8reg1u75d9n88id3.apps.googleusercontent.com"
+          clientId="634119079381-vcmnnjv04if0crcjerils8erusu4f9o7.apps.googleusercontent.com"
           buttonText="Login"
           onSuccess={login}
           onFailure={loginError}
